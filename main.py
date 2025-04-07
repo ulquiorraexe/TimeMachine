@@ -3,8 +3,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-ID = "d5614189330a46bd867edb8a9b4995ea"
-SECRET = "ffe29fb56b154688a7436648fc4716d9"
+ID = ""
+SECRET = ""
 # Scraping Billboard 100
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 response = requests.get("https://www.billboard.com/charts/hot-100/" + date)
